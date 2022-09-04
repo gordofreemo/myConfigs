@@ -25,7 +25,8 @@
 
 # If not running interactively, don't do anything
 [[ "$-" != *i* ]] && return
-alias ls='ls --color=auto'
+alias ls='ls --color=auto -laF'
+alias apt-get='apt-cyg'
 eval `dircolors /home/Gordo/.dircolors`
 test -r ~/.dir_colors && eval $(dircolors ~/.dir_colors)
 # Shell Options
