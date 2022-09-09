@@ -8,7 +8,6 @@
 # base-files version 4.3-3
 
 # ~/.bashrc: executed by bash(1) for interactive shells.
-
 # The latest version as installed by the Cygwin Setup program can
 # always be found at /etc/defaults/etc/skel/.bashrc
 
@@ -27,7 +26,12 @@
 [[ "$-" != *i* ]] && return
 alias ls='ls --color=auto -laF'
 alias apt-get='apt-cyg'
-eval `dircolors /home/Gordo/.dircolors`
+alias mongod="'/cygdrive/c/Program Files/MongoDB/Server/6.0/bin/mongod.exe'"
+alias mongo="'/cygdrive/c/Program Files/MongoDB/Server/6.0/bin/mongosh-1.5.4-win32-x64/bin/mongosh.exe'"
+alias python="/cygdrive/c/Users/Andrew/anaconda3/python.exe"
+alias python3="/cygdrive/c/Users/Andrew/anaconda3/python.exe"
+alias open="cygstart"
+eval `dircolors /home/Andrew/.dircolors`
 test -r ~/.dir_colors && eval $(dircolors ~/.dir_colors)
 # Shell Options
 #
@@ -187,4 +191,3 @@ test -r ~/.dir_colors && eval $(dircolors ~/.dir_colors)
 # }
 #
 # alias cd=cd_func
-
