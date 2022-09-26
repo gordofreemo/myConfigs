@@ -1,8 +1,6 @@
 syntax on
 filetype plugin indent on
 
-execute pathogen#infect()
-
 set t_Co=256
 set background=dark
 colorscheme oceanic_material 
